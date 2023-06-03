@@ -1,3 +1,17 @@
+/*global*/
+.one, .two, .three, .four, .ill {
+    display: flex;
+}
+
+.two, .three {
+    flex-direction: column;
+}
+
+.ill {
+    flex-direction: row;
+}
+
+/* header */
 .top {
     display:flex;
     justify-content: space-between;
@@ -5,4 +19,63 @@
 .header.content {
     display: flex;
     justify-content: space-around;
+}
+
+header, footer, .one {
+    background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.links, .secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+/* section 1 */
+.main {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+img {
+    justify-content: flex-end;
+}
+
+/* section 2 */
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 12px;
+}
+.img {
+    height: 125px;
+    flex: 1 1 125px;
+}
+
+.two {
+    align-items: center;
+}
+.ill {
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section 3 */
+.three {
+    background-color: #E5E7EB;
+    padding: 24px;
+}
+
+.quote {
+    font-style: light italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+.author {
+    align-self: flex-end;
+    margin-right: 24px;
 }
