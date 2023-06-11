@@ -80,8 +80,10 @@ p {
     margin-bottom: 32px;
 }
 .img {
-    height: 125px;
-    flex: 1 1 125px;
+    height: 150px;
+    weight: 150px;
+    margin: 32px;
+    flex: 1 1 150px;
 }
 
 .two {
@@ -107,4 +109,18 @@ p {
 .author {
     align-self: flex-end;
     margin-right: 24px;
+}
+
+/* Section 4 */
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    text-align: center;
+    height: 32px;
+    width: auto;
 }
